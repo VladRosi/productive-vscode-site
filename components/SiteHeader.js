@@ -1,4 +1,4 @@
-console.log("hi everybody!");
+console.log("Hi everybody!");
 
 export default function SiteHeader() {
   return (
@@ -19,10 +19,7 @@ export default function SiteHeader() {
 
         {/* nav */}
         <div className="flex space-x-2 items-center">
-          <a
-            href="https://learn.better.dev/login"
-            className="block py-5 px-4 text-gray-700"
-          >
+          <a href="https://learn.better.dev/login" className="block py-5 px-4 text-gray-700">
             Login
           </a>
           <a
